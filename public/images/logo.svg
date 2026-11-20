@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Mark: Modern Tech Education emblem -->
+  <g transform="translate(4, 3)">
+    <!-- Rounded background container -->
+    <rect width="44" height="44" rx="12" fill="url(#logoGrad)" />
+    <!-- Terminal / Code brackets with graduation peak -->
+    <path d="M14 26L19 22L14 18" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 28H30" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Graduation Cap Roof Accent -->
+    <path d="M22 13L32 17L22 21L12 17L22 13Z" fill="#ffffff" fill-opacity="0.95" />
+    <path d="M30 18.5V23.5" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="58" y="24" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="800" font-size="16" fill="#1e1b4b" letter-spacing="-0.3">
+    TECHNOLOGY
+  </text>
+  <text x="58" y="40" font-family="Inter, system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#4f46e5" letter-spacing="1.2">
+    TRAINING INSTITUTE
+  </text>
+</svg>
+
